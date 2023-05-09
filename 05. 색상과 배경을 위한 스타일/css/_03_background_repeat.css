@@ -1,0 +1,8 @@
+body {
+    background-image: url(../../bit.png);
+    /* repeat : 기본값. 반복.
+    repeat-x : 가로반복.
+    repeat-y : 세로반복.
+    no-repeat : 반복없음. */
+    background-repeat: repeat-y;
+}

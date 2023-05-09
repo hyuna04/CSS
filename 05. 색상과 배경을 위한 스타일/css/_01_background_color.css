@@ -1,0 +1,22 @@
+body {
+    background-color: #0094ff; /*전체 바탕화면 색*/
+}
+
+div {
+    background-color: orange; /*orange색*/
+    width: 80%; /*orange 가로 넓이*/
+    padding: 15px; /*orange 세로 넓이*/
+    border: 1px solid black; /*orange테두리*/
+}
+
+h1 {
+    background-color: lightgreen; /*h1텍스트의 배경색*/
+}
+
+p {
+    background-color: rgba(180, 180, 230, 1);
+    line-height: 30px; /*rgba(180, 180, 230, 1)높이*/
+    border: 10px solid rgba(0, 0, 0, .1); /*rgba(0, 0, 0, .1)*/
+    padding: 20px; /*rgba(180, 180, 230, 1)와 rgba(0, 0, 0, .1)의 간격*/
+    background-clip: content-box; /*rgba(180, 180, 230, 1)크기*/
+}
