@@ -1,0 +1,21 @@
+div {
+    width: 300px;
+    height: 300px;
+    margin: 20px; /*box 사이 간격*/
+}
+
+.box1 {
+    background: #ccc;
+    background: -webkit-repeating-radial-gradient(white, #ccc 10%);
+    background: -moz-repeating-radial-gradient(white, ccc 10%);
+    background: -o-repeating-radial-gradient(white, ccc 10%);
+    background: repeating-radial-gradient(white, ccc 10%);
+}
+
+.box2 {
+    background: #ccc;
+    background: -webkit-repeating-radial-gradient(white, white 20px, #ccc 20px, #ccc 40px);
+    background: -moz-repeating-radial-gradient(white, white 20px, #ccc 20px, #ccc 40px);
+    background: -o-repeating-radial-gradient(white, white 20px, #ccc 20px, #ccc 40px);
+    background: repeating-radial-gradient(white, white 20px, #ccc 20px, #ccc 40px);
+}
