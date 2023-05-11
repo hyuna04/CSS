@@ -3,8 +3,10 @@ a:link, a:visited {
     text-decoration: none;
 
 }
-li {
+ul {
     list-style-type: none;
+}
+li {
     display: inline;
     border-style: solid;
     border-width: 1px;
